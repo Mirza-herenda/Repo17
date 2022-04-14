@@ -7,7 +7,7 @@ const BAKING_TEMPERATURES=
 
 function main(baking) 
 {
-    const{ bread:{low,high}}=BAKING_TEMPERATURES;
+    const{ bread:{low,high}}=baking;
 
 return{low,high}; 
 }

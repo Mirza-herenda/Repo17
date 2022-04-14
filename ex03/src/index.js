@@ -7,7 +7,7 @@ const MY_CAR =
 };
 function main(myCar) 
 {
-   const{cylinders,size}=MY_CAR;
+   const{cylinders,size}=myCar;
    return{cylinders,size};
 
     
